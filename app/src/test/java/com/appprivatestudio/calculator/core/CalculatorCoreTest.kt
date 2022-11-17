@@ -21,7 +21,7 @@ class CalculatorCoreTest {
 
         // 0 + 10
         engine.calculate(10.toString())
-        assertThat(engine.result, equalTo(10.toString()))
+        assertThat(engine.result, equalTo(100.toString()))
 
         // 10 + 10
         engine.calculate(10.toString())
